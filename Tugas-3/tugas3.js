@@ -48,16 +48,19 @@ var tanggal = 26;
 var bulan = 9;
 var tahun = 1998;
 switch(bulan){
-    case 1: {console.log('Januari'); break;}
-    case 2: {console.log('Febuary'); break;}
-    case 3: {console.log('Maret'); break;}
-    case 4: {console.log('April'); break;}
-    case 5: {console.log('Mei'); break;}
-    case 6: {console.log('Juni'); break;}
-    case 7: {console.log('Juli'); break;}
-    case 8: {console.log('Agustus'); break;}
-    case 9: {console.log('September'); break;}
-    case 10: {console.log('Oktober'); break;}
-    case 11: {console.log('November'); break;}
-    case 12: {console.log('Desember'); break;}
-    default: {console.log('ANJAY');}}
+    case 1 :   { text = "Januari"; break; }
+    case 2 :   { text = "Februari"; break; }
+    case 3 :   { text = "Maret"; break; }
+    case 4 :   { text = "April"; break; }
+    case 5 :   { text = "Mei"; break; }
+    case 6 :   { text = "Juni"; break; }
+    case 7 :   { text = "Juli"; break; }
+    case 8 :   { text = "Agustus"; break; }
+    case 9 :   { text = "September"; break; }
+    case 10:   { text = "Oktober"; break; }
+    case 11:   { text = "November"; break; }
+    case 12:   { text = "Desember"; break; }
+    default:  { text = "ANJAY"; }}
+    
+console.log('Soal 5');
+console.log(tanggal+" "+text+" "+tahun); 
